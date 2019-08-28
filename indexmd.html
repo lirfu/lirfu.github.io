@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>My Markdown Content</title>
+
+<meta name="viewport" content="width=device-width" >
+
+<style>
+#status {
+    font-style: italic;
+}
+</style>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+
+<!-- Obtain Markdown.Converter.js from http://code.google.com/p/pagedown/ -->
+<script src="Markdown.Converter.js"></script>
+
+<script>
+    $(document).ready(function() {
+        $("#status").html("<p>Loading page content...</p>");
+        // Load the Markdown file and convert it to HTML for display
+        var markdownURL = "mycontent.markdown";
+        $.get(markdownURL, function(markdownContent) {
+            var converter = new Markdown.Converter();
+            var htmlContent = converter.makeHtml(markdownContent);
+            $("div#content").html(htmlContent);
+        });
+    });
+</script>
+
+</head>
+
+<body>
+
+<div id="content">
+    <div id="status">
+        <p>JavaScript must be enabled in your browser to view this page.</p>
+    </div>
+</div>
+
+</body>
+</html>
+
