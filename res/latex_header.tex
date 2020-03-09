@@ -1,0 +1,65 @@
+%%% Made by lirfu %%%
+
+% Include in preamble using: \input{lirfu_header.tex}
+
+\usepackage{amsmath,amssymb,amsfonts}  % Definitions of the American Mathematical Society
+
+\usepackage[utf8]{inputenc}         % Use this
+\usepackage[T1]{fontenc}            % and this for croatian letters.
+
+\usepackage{booktabs}			    % Tables.
+\usepackage{cite}				    % Citations.
+\usepackage{graphicx}			    % Images.
+\usepackage{xcolor}				    % Text color.
+\usepackage[]{algorithmic}		    % Algorithms.
+\usepackage[]{algorithm}		    % Algorithms.
+\usepackage[f]{esvect}              % Fancy vector arrows (vv command).
+\usepackage{bbm}				    % Fancy font for maths.
+\usepackage{multirow}			    % Multirow cells in tables.
+\usepackage{float}				    % Image position on page.
+\usepackage{amsmath}			    % Maths.
+%\usepackage{subcaption}			    % Captions for figures. (Overleaf hates it for some reason)
+\usepackage{url}				    % URLs.
+\usepackage[hidelinks]{hyperref}    % Hyperrefs throughout PDF.
+\usepackage[caption=false]{subfig}
+
+% Language
+\def\engl#1{(engl. \textit{#1})}		% Notation for a phrase in English.
+
+% Mathematics
+\newcounter{eqnumber}									% Custom counter for equations.
+\newcommand{\eq}[2][eq:ctr_\theeqnumber]{\begin{align}\begin{split}#2 \label{#1}\end{split}\end{align} \stepcounter{eqnumber}}  % ???
+\def\mcases#1{\begin{cases}#1\end{cases}}				% Wrapper for curly bracket case functions.
+\def\vec#1{\vv{#1}}										% Notation for vector.
+\def\mat#1{\underline{#1}}								% Notation for matrix.
+\def\pfrac#1#2{\frac{\partial #1}{\partial #2}}			% Fraction for partial derivation.
+\def\dfrac#1#2{\frac{d #1}{d #2}}						% Fraction for direct derivation.
+\def\normal{\mathcal{N}}								% Symbol for natural number domain.
+\def\realnum{\mathbb{R}}								% Symbol for real number domain.
+\def\expect{\mathbb{E}}									% Symbol for expectation.
+\def\probsep{\ |\ }										% Separator for probabilistic dependency in function arguments.
+
+% Machine learning specials
+\def\dataset{\mathcal{D}}								% Notation for the dataset.
+\def\minibatch{\mathcal{M}}								% Notation for a mini-batch.
+\def\F1{F$_1$}											% Symbol for F1 score.
+
+% TODO notes
+\def\TODO{\noindent\textcolor{red}{TODO}\newline}					% TODO empty line.
+\def\todo#1{\noindent\textcolor{red}{TODO: \textit{#1}}\newline}	% TODO description line.
+\def\todoimg#1{\begin{center} \textcolor{red}{\big[ IMAGE: \textit{#1} \big]} \end{center}}				% TODO image description line.
+\def\todoeq#1{\textcolor{red}{\begin{equation}\text{\big[EQUATION: \textit{#1}\big]}\end{equation}}}	% TODO equation description line.
+\definecolor{missing}{rgb}{1,0.55,0.55}
+\newcommand{\missing}{\colorbox{missing}{?} }							% Missing information question mark.
+\newcommand{\missingt}[1]{\colorbox{missing}{#1}}						% Missing information description.
+
+% Path to images.
+\graphicspath{ {Images/} }		% Path to image folder.
+
+% Change some default titles.
+%\renewcommand{\contentsname}{Sadržaj}
+%\renewcommand{\bibname}{Reference}
+
+% Change some default spacing.
+%\parindent 4mm
+%\parskip 2mm
