@@ -6,13 +6,13 @@ This page is a set of documents I use day-to-day for research or what not. Altho
 # **My cheatsheets**
 -----
 
-## <a class="header-link" href="./rendering_nomenclature.md">Rendering nomenclature</a>
+## [Rendering nomenclature](rendering_nomenclature.md)
 A cheatsheet of some nomenclature stuff in computer graphics.
 
 # **Templates and stuff**
 -----
 
-## <a class="header-link" href="./assets/files/latex_header.tex">My Latex header </a>
+## [My Latex header](./assets/files/latex_header.tex)
 Contains package inclusions and command definitions I use day-to-day.
 
 # **About me**
