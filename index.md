@@ -1,4 +1,4 @@
-# **About**
+# **Welcome**
 -----
 
 This page is a set of documents I use day-to-day for research or what not. Although they are for my personal usage, I'm opening it to you in hope you find it useful. Enjoy!

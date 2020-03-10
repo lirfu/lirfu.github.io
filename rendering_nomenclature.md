@@ -1,4 +1,4 @@
-# Rendering cheatsheet
+# **Rendering cheatsheet**
 The what-is-what document for various elements in rendering. Useful to stop mixing names of different, but similarly called methods. Also good for young researchers to gain some nomenclature and an overview of the field.
 
 
@@ -98,29 +98,27 @@ The what-is-what document for various elements in rendering. Useful to stop mixi
 ## BRDF models (Bidirectional reflectance distribution function)
 -----
 
-### Object oriented
-
-#### Lambertian
+### Lambertian
 * Only diffuse, ideal matte
 
-#### Phong model
+### Phong model
 * Diffuse + Specular + Ambient
 * Models light attenuation using surface normal and viewer vector
 
-####  Blinn-Phong model
+###  Blinn-Phong model
 * Very similar to Phong model, but uses halfway vector with surface normal for attenuation
 * Halfway vector is "half-way" between viewer and source vectors
 * Improved specular realism
 
-#### Cook–Torrance model
+### Cook–Torrance model
 * Specular-microfacet model
 * Accounts for color shifting due to light wavelengths
 
-#### Ward model
+### Ward model
 * Specular-microfacet model with an elliptical-Gaussian dist. function that depends on surface tangent
 
-#### Oren–Nayar model
+### Oren–Nayar model
 * Perfect diffuse microfacets (directed microfacet)
 
-#### Ashikhmin-Shirley
+### Ashikhmin-Shirley
 * Anisotropic reflectance
