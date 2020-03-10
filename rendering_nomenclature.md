@@ -4,7 +4,7 @@ The what-is-what document for various elements in rendering. Useful to stop mixi
 
 
 ## Radiometry units (light representation)
-=====
+-----
 
 ### Radiant flux (power) [*W*]
 * Amount of energy in a second
@@ -22,7 +22,7 @@ The what-is-what document for various elements in rendering. Useful to stop mixi
 
 
 ## Rendering methods (scene traversal)
-=====
+-----
 
 ### Forward renderer
 * For real-time rendering
@@ -71,7 +71,7 @@ The what-is-what document for various elements in rendering. Useful to stop mixi
 
 
 ## Shading (interpolation)
-=====
+-----
 
 ### Flat shading
 * Ok, only for very blocky objects or simplistic artist effect
@@ -96,7 +96,7 @@ The what-is-what document for various elements in rendering. Useful to stop mixi
 
 
 ## BRDF models (Bidirectional reflectance distribution function)
-=====
+-----
 
 ### Object oriented
 
