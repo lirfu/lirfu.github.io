@@ -9,8 +9,11 @@ This page is a set of documents I use day-to-day for research or what not. Altho
 ## [Rendering nomenclature](rendering_nomenclature.md)
 A cheatsheet of some nomenclature stuff in computer graphics.
 
-# **Templates and stuff**
+# **Tools and templates**
 -----
+
+## [Online organization tools](online_org_tools.md)
+Contains a list of online tools to help with organization of your team/classroom/whatever.
 
 ## [My Latex header](./assets/files/latex_header.tex)
 Contains package inclusions and command definitions I use day-to-day.
