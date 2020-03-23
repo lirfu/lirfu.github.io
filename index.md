@@ -18,6 +18,9 @@ Contains a list of online tools to help with organization of your team/classroom
 ## [My Latex header](./assets/files/latex_header.tex)
 Contains package inclusions and command definitions I use day-to-day.
 
+## [Tools for learning maths](math_learning.md)
+A bunch of notebooks for learning maths.
+
 # **About me**
 -----
 My name is Juraj Fulir and I am a doctoral student at the [Faculty of Electrical Engineering and Computing](https://www.fer.unizg.hr/en). I work in the field of Computer Graphics (CG), currently looking into the problem of reverse rendering and incorporation of deep learning techniques in various applications in CG.
