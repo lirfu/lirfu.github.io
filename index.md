@@ -3,10 +3,10 @@
 
 This page is a set of documents I use day-to-day for research or what not. Although they are for my personal usage, I'm opening it to you in hope you find it useful. Enjoy!
 
-# **My cheatsheets**
+# **Cheatsheets**
 -----
 
-## [Rendering nomenclature](rendering_nomenclature.md)
+## [Rendering nomenclature](cheatsheets/rendering_nomenclature.md)
 A cheatsheet of some nomenclature stuff in computer graphics.
 
 # **Tools and templates**
