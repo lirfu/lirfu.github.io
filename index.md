@@ -3,11 +3,15 @@
 
 This page is a set of blog posts, notebooks and other files you might find interesting or fun.
 
-# **Cheatsheets**
+
+# **Computer Graphics**
 -----
 
-## [Rendering nomenclature](cheatsheets/rendering_nomenclature.md)
+## [Useful online sources of knowledge and art](computer_graphics/sources.md)
+
+## [Rendering nomenclature](computer_graphics/rendering_nomenclature.md)
 A cheatsheet of some nomenclature stuff in computer graphics.
+
 
 # **Tools and templates**
 -----
@@ -20,6 +24,7 @@ Contains package inclusions and command definitions I use day-to-day.
 
 ## [Tools for learning maths](tools/math_learning.md)
 A bunch of notebooks for learning maths.
+
 
 # **About me**
 -----
