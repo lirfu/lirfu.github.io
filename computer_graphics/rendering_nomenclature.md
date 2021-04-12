@@ -61,8 +61,9 @@ The what-is-what document for various elements in rendering. Useful to stop mixi
 
 ### Radiosity
 * Scene is divided into patches, each patch emits light to other patches
-* Viewpoint independent
-* [TODO](https://en.wikipedia.org/wiki/Computer_graphics_lighting)
+* The contribution factors are calculated by correlating pairs of patches that see each other
+* Approximates diffuse lightning of walls making it perfect for indoors
+* When a part moves the factors need to be recalculated, otherwise only a linear system of radiosities needs solving
 
 ### Photon mapping
 * [TODO](https://en.wikipedia.org/wiki/Computer_graphics_lighting)

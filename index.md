@@ -12,6 +12,8 @@ This page is a set of blog posts, notebooks and other files you might find inter
 ## [Rendering nomenclature](computer_graphics/rendering_nomenclature.md)
 A cheatsheet of some nomenclature stuff in computer graphics.
 
+## [Artistically failing in graphics](computer_graphics/images.md)
+
 
 # **Tools and templates**
 -----
